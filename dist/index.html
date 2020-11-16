@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://kit.fontawesome.com/77a55c3d85.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section>
+        <div class="container border">
+            <div class="grid height-100 background-white">
+                <div class="column-md50 text-center">
+                    <h2 class="promo-heading">Transform on Scroll Effect</h2>
+                    <p class="promo-text">This following effect scrolls through a series of sections that are locked
+                        into place. The sections are technically layered ontop of one another to acheive the outcome
+                        while non-visible sections trigger each scene occurence.</p>
+                    <i class="fas fa-chevron-down text-40 scroll-arrow"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="scroll-trap">
+        <div class="panel-wrapper">
+            <picture>
+                <source srcset="images/device-desktop.png" media="(min-width:768px)">
+                <source srcset="images/device-mobile.png" media="(min-width:320px)">
+                <img class="targetImage" href="images/device-desktop.png" alt="mobile-phone">
+            </picture>
+            <div class="panel panel1">
+                <div class="panel-text">
+                    <h2 class="promo-heading">Are you ready?</h2>
+                    <p class="promo-text">This is scene 1. </p>
+                </div>
+            </div>
+            <div class="panel panel2">
+                <div class="panel-text top">
+                    <h2 class="promo-heading">Behold. <br>More Scrolling.</h2>
+                    <p class="promo-text">This is scene 2. </p>
+                </div>
+            </div>
+            <div class="panel panel3">
+                <div class="panel-text">
+                    <h2 class="promo-heading">Hero title to <br>close the deal</h2>
+                    <p class="promo-text">This is scene 3. </p>
+                    <button class="promo-btn-white">Buy today</button>
+                </div>
+            </div>
+        </div>
+        <div id="trigger1" class="trigger" data-trigger="1"></div>
+        <div id="trigger2" class="trigger" data-trigger="2"></div>
+        <div id="trigger3" class="trigger" data-trigger="3"></div>
+    </section>
+    <section>
+        <div class="container border">
+            <div class="grid height-100 background-white">
+                <div class="column-md50 text-center">
+                    <h2 class="promo-heading">End.</h2>
+                    <p class="promo-text">Effect works in reverse order as well.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
