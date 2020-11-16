@@ -2,7 +2,7 @@
 
 This effect is comprised of 3 scenes within a master scene. Once the user scrolls into the master scene, these layered sub scenes are revealed only once their respective trigger point is reached. There is also a image set within the master scene. It's position is transformed during each scene to hide and reveal the image.
 
-![Reveal on scroll gif](resources/revealOnScroll.gif)
+![Reveal on scroll gif](resources/transformOnScroll.gif)
 
 
 ## Details
@@ -15,6 +15,6 @@ This effect is acheived using scroll magic and some creative javascript. This is
 
 ### Demo
 
-[image transform on scroll demo](https://bournecreative.github.io/bournecreative.revealOnScroll.io/)
+[image transform on scroll demo](https://bournecreative.github.io/bournecreative.transformOnScroll.io/)
 
 Built with vanilla javascript, scss, scroll magic, green sock using ES6 modules, and using laravel mix for the project build.
