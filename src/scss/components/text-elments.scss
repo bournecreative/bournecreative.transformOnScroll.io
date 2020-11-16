@@ -1,12 +1,17 @@
 .promo-heading {
-    font-size: 54px;
+    font-size: 32px;
     margin: 20px 0 12px 0;
     padding: 0;
+    font-weight: regular;
+    @media screen and (min-width: 768px){
+        font-size: 54px;
+    }
 }
 
 .promo-text {
     font-size: 20px;
-
+    margin: 0;
+    font-weight: 100;
 }
 
 .scroll-arrow {
